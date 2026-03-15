@@ -1,5 +1,6 @@
 export { defineCapability } from "./capabilities/define-capability.js";
 export { createCapabilityRegistry } from "./capabilities/registry.js";
+export { createClaudeBrowserEngine } from "./engines/claude-browser-engine.js";
 export { createOperator } from "./operator/create-operator.js";
 
 export type {
@@ -11,6 +12,15 @@ export type {
   CapabilityContext,
 } from "./capabilities/types.js";
 export type { ExecutionTrace, TraceAttempt, VerificationOutcome } from "./trace/types.js";
+export type {
+  BrowserRuntime,
+  ClaudeHackerNewsCapabilityName,
+  ClaudeHackerNewsContext,
+  ClaudeHackerNewsRegistry,
+  ClaudeHackerNewsResult,
+  PageEvidence,
+  PageLinkEvidence,
+} from "./engines/types.js";
 export type {
   EngineRunInput,
   ExecutionResult,

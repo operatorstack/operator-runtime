@@ -149,6 +149,23 @@ npm run build
 npm run example
 ```
 
+## Claude example
+
+`operator1` can also run a real Claude-backed extraction example on top of a Playwright browser runtime.
+
+This is not deterministic automation. It is:
+
+- deterministic operator orchestration
+- Claude-backed extraction
+- deterministic verification
+
+Run it with:
+
+```bash
+ANTHROPIC_API_KEY=... ANTHROPIC_MODEL=claude-3-haiku-20240307
+npm run example:claude-hn
+```
+
 ## Docs
 
 - `docs/architecture.md`
