@@ -6,6 +6,8 @@ title: Introduction
 
 `operator-runtime` is a TypeScript SDK for building automation systems around an operator model.
 
+`operator-runtime` is still in active development.
+
 The core idea is simple:
 
 - define the task as a `goal`
