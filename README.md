@@ -2,6 +2,8 @@
 
 An operator execution layer for reliable automation systems.
 
+`operator-runtime` is still in active development.
+
 `operator-runtime` is the operator layer. It is not a browser runtime.
 
 The operator layer is responsible for:
@@ -81,6 +83,10 @@ OPERATOR_RUNTIME_BROWSER_PATH="/Applications/Google Chrome.app/Contents/MacOS/Go
 ## Docs site
 
 The docs content lives in `docs/` and the Docusaurus site config lives in `website/`.
+
+Live docs:
+
+[`https://operatorstack.github.io/operator-runtime/`](https://operatorstack.github.io/operator-runtime/)
 
 Run the docs locally:
 

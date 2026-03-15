@@ -48,6 +48,9 @@ export default function Home(): JSX.Element {
               Define the task. Select the capability. Provide context. Run with
               a real runtime. Verify the result deterministically.
             </p>
+            <p>
+              `operator-runtime` is still in active development.
+            </p>
             <div className="docHeroActions">
               <Link className="button button--secondary button--lg" to="/docs/intro">
                 Read the docs
@@ -117,7 +120,7 @@ Result + Trace`}</code>
               <p>
                 The current implementation includes a typed operator runtime, a
                 browser-backed example using Playwright, and a verified browser
-                integration test. It does not yet include an LLM-backed engine.
+                integration test. The project is still in active development.
               </p>
               <p>
                 The docs call out what exists today and what is planned so the
