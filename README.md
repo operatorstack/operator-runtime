@@ -100,6 +100,13 @@ Build the docs site:
 npm run docs:build
 ```
 
+Deploy the docs with GitHub Pages:
+
+1. In GitHub, open `Settings -> Pages`.
+2. Set the source to `GitHub Actions`.
+3. Push the branch to GitHub and merge it into `main`.
+4. The `Deploy docs` workflow will publish `website/build` to Pages.
+
 Serve the built docs locally:
 
 ```bash
