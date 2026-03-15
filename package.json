@@ -1,0 +1,56 @@
+{
+  "name": "operator-runtime",
+  "version": "0.1.0",
+  "description": "An operator execution layer for reliable automation systems.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "npx docusaurus start website --host 127.0.0.1 --port 3001",
+    "build": "npx docusaurus build website",
+    "serve": "npx docusaurus serve website/build --host 127.0.0.1 --port 3001",
+    "deploy": "npx docusaurus deploy website",
+    "docusaurus": "npx docusaurus",
+    "docs:build": "npx docusaurus build website",
+    "docs:serve": "npx docusaurus serve website/build --host 127.0.0.1 --port 3001",
+    "docs:deploy": "npx docusaurus deploy website",
+    "docs:clear": "rm -rf website/.docusaurus website/build",
+    "build:sdk": "tsc -p tsconfig.json",
+    "check": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run",
+    "example:sequence": "tsx examples/sequence-example.ts",
+    "example:claude-hn": "tsx examples/claude-hacker-news.ts"
+  },
+  "keywords": [
+    "operator",
+    "automation",
+    "typescript"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@anthropic-ai/sdk": "^0.65.0",
+    "@docusaurus/core": "^3.9.2",
+    "@docusaurus/preset-classic": "^3.9.2",
+    "@docusaurus/theme-classic": "^3.9.2",
+    "@types/node": "^24.5.2",
+    "@types/react": "^18.3.28",
+    "@types/react-dom": "^18.3.7",
+    "clsx": "^2.1.1",
+    "playwright": "^1.58.2",
+    "prism-react-renderer": "^2.4.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.0"
+  }
+}

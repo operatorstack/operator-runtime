@@ -1,0 +1,28 @@
+:root {
+  --ifm-color-primary: #2563eb;
+  --ifm-color-primary-dark: #1d4ed8;
+  --ifm-color-primary-darker: #1e40af;
+  --ifm-color-primary-darkest: #1e3a8a;
+  --ifm-color-primary-light: #3b82f6;
+  --ifm-color-primary-lighter: #60a5fa;
+  --ifm-color-primary-lightest: #93c5fd;
+}
+
+.docHero {
+  border-radius: 1rem;
+  padding: 3rem 0;
+}
+
+.docHeroActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.docCard {
+  height: 100%;
+}
+
+.docDiagram {
+  overflow-x: auto;
+}
